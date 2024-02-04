@@ -1,0 +1,94 @@
+Few-shot prompt
+Grade the Cohesion, Syntax, Vocabulary, Phraseology, Grammar, and Conventions of the essay based on the rubrics. The scores range from 1.0 to 5.0 in increments of 0.5, with greater scores corresponding to greater proficiency in that measure.
+Cohesion Rubrics: {
+5: "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+4: "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+3: "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+2: "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+1: "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas is unclear."
+}
+Syntax Rubrics: {
+5: "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation."
+4: "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation. "
+3: "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences."
+2: "Some sentence variation used; many sentence structure problems."
+1: "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common"
+}
+Vocabulary Rubrics: {
+5: "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use. "
+4: "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items"
+3: "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy"
+2: "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropriately; errors in word formation and word choice that may distort meanings"
+1: "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms"
+}
+Phraseology Rubrics: {
+5: "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible." 
+4: "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms."
+3: "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses."
+2: "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases"
+1: "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases"
+}
+Grammar Rubrics: {
+5: "Command of grammar and usage with few or no errors."
+4: "Minimal errors in grammar and usage."
+3: "Some errors in grammar and usage"
+2: "Many errors in grammar and usage."
+1: "Errors in grammar and usage throughout."
+}
+Conventions Rubrics: {
+5: "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+4: "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors few and not distracting."
+3: "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+2: "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+1: "Minimal use of conventions; spelling, capitalization, and punctuation errors throughout."
+}
+ 
+Here are some examples of the evaluation results by human raters:
+ 
+Example 1:
+"Essay”: “she is not to bring a phones in school because it is the school and you do not a phones to you get in t and get at school you cult get call home and you get a big and you cum to for a mouth ,you we be other lunch .or you do not cum you we be achubll and i wuld call your mom to tell you to cum . and stop testing went you are tollking and you are going to get a teket stop testing well be stop you well be in a cold and you well be stop. you would stop .would be stop and you. do not have allo w students to have phoneat school at all.”
+“Score”: { 
+“cohesion”: “1.0”,
+“syntax”: “1.5”,
+“vocabulary”: “1.5”,
+“phraseology”: “1.5”,
+“grammar”: “2.0”,
+“conventions”: “2.0”
+}
+ 
+Example 2:
+"Essay2”: “have you ever thought of just staying after school just to finish your homework, and wish not to do work at home when you can relax at home without thinking and stressing about doing your homework instead of remembering that you did it after school, that's why I think it's a good idea to have an, after school club because then the students will take advantage to finish there homework. and get help from and get more specific direction or other things that students need help on. So, i think if students go to after school club to finish there homework, etc then the students won't have to worry about it at home and keep there grades in good shape. Also to keep it simple it's important to have something important like this (after school club) to let the students know they have after school to help them complete there homework. And then, if students need help on completing there homework, etc then the students can come to after school to get the help they need. And create a bond with other students by helping each other. therefore i think there should be a after school club to help, do, and support. 3 gt”
+“Score”: {
+“cohesion”: “3.0”,
+“syntax”: “2.5”,
+“vocabulary”: “3.0”,
+“phraseology”: “3.0”,
+“grammar”: “3.5”,
+“conventions”: “2.5”
+}
+ 
+Example 3:
+"Essay3”: “Technology has made a positive impact in our lives. Technology can be used for many things whether it's browsing the web, shopping, or planning for vacation. Technology has had impacted us negative wise and positive wise. For a lot of people they see technology as a huge positive impact for people. People may think now that technology is out people contact other people way less but high chance that's not the case. People that do things like gaming or just connection with others online make it way easier to meet other people. For example theres websites like Omegle where you just go on and get into a voice chat with a random person around the country or maybe in other countries. There's also many other websites or apps where you can contact random people or even friends and family. There's also gaming, for gamers you usually go into lobbies or servers with thousands of people which is also an easier to contact people. For example if you own a PC, a PlayStation, or even an Xbox there's many games where you can contact people if you're making new friends or even just playing with them for as long until someone gets off. I have heard many stories where people have met online and grew a friendship even though they've never met in person they probably have each other's social media and numbers. Many people use technology to shop. Online shopping is an easier way of finding things you need or even things you want. People commonly do online shopping only because it's just easier and quicker. Some people may have a busy schedule so it will make things easier if they're running errands or even just going out and spending time with family or friends without having to add something else to their list of plans. Online shopping is probably something everyone has done multiple times and many people can agree that it is easier and quicker than driving out to the store and searching through the whole store to find the things you want or need. In conclusion of this technology has made a positive impact in our lives in many things that people do on a daily basis. Technology could be seen as positive or negative depending on how people see it but in my eyes it's done a good job and has definitely made things easier for a lot of people.”
+“Score”: {
+“cohesion”: “5.0”,
+“syntax”: “4.0”,
+“vocabulary”: “4.0”,
+“phraseology”: “4.5”,
+“grammar”: “4.0”,
+“conventions”: “4.0”
+}
+ 
+Please evaluate the essays I will send you.
+
+
+"Essay1": "Albert Schweitzer said, "Example is not the main thing in influencing others; it is the only thing." However, it is a good example by your own behavior the best way to influence other people. People may follow every step you do, because they want to success in life by being influences by others. It is the main thing to show people that they can do what they think they are not able to do. First reason is, People may follow every step you do, because they want to success in life by being influence by others. For example, my friend Generic_Name has a son, who according to her he wants to be a lawyer. Generic_Name husband who's name is Generic_Name is a lawyer. Although their son Generic_Name is taking only math classes in collage, which it has nothing to do with laws. Generic_Name and Generic_Name want to influence Generic_Name to become a lawyer. But Generic_Name is being influence by his Algebra class teacher. Generic_Name has a very high score on math, and his Algebra teacher believe that Generic_Name can be a math teacher in a college. Generic_Name teacher knows how hard he works to do everything right and how his behavior it is showed. Another reason is, It is the main thing to show people that they can do what they think they are not able to do. For example, when my brother was nine years old he wanted to be a Pilot, but he was just really scared of heights. When my brother graduated from high school he wanted to go to Army. Somehow my mom find out that he really did not wanted to do that what he really wanted to do was being a Pilot. My mom is a Flight Attend and she told my brother that some people will say you are too weak to do this and that, but they actually does not know what you are capable to do. With those words my mom influence my brother, and now he is a Pilot and he works for the Air Force. My mom gave him an example that no one believed on her the only person who believed on her was her mom. As my mom says, " Don't let other people think you are not able to do things, which they we're not able to do." Some people may think that there are better ways to influence others. However, it can be true, but people get more influence by examples. There are not many ways for example, if someone who is very important who wants to influence someone else who is not that important to be come important as they are. Does not mean this person is going to have the same luck to become really important. Do not let other people influence you by other ways, let them give you an example of how you are going to success. In conclusion, It is a good example by your own behavior the best way to influence other people. To teach them what it is good and what it is wrong to do. Given your own examples and teach them how to behave. Dot let people think that example is not the main thing to influence others."
+
+…
+
+…
+
+…
+
+"Essay30": "The life of the some student's, of wants superate. I believe and think,that all student's already graduate of the schools or university,they can work in a place where they can have some opportunity. Also they can putting in practic or demostrate your habilities. However , I think that they could should of the best effort about their, and then they can remember all the things about they learning while they be studied,as well i think that all the estudents that they do not have age for to work ,like student of the14 or 15 years ald they can have a righ for to have a part time. although,nobady can be deny one job for the students want to have a job for getting more experience. In my opinion , every student, they can have a right, to demostrate your habilities,and then they can have more ideas,and get more experience for survive in his life. also they can be more smart, while they putting in practices your habilities,because they are gona putting the best effort. even think that they can be indepent by your self,also they gonna reconize all the effort of the parents didint for their Also too i think they can choice what carrier they would like to take or they can be think what is better for their or what is gonna helping in the future for getting a better life,that is my conclussion,about what are talking. "
+
+
